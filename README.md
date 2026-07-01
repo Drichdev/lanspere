@@ -2,16 +2,7 @@
 
 An interactive landing page with a generative p5.js planet in the background and a centered looping project list. Hovering a project reveals a halftone text effect and displays its preview image in the bottom-right corner.
 
-## Structure
-
-```
-explore-world/
-  index.html    page structure
-  style.css     styling and animations
-  sketch.js     animated background (p5.js planet)
-  projects.js   project list, halftone effect, infinite scroll
-  images/       project visuals (1.png to 20.png)
-```
+Live demo: [Langspere](https://drichdev.github.io/langspere/)
 
 ## How it works
 
