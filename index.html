@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore World</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- police moderne -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+</head>
+
+<body>
+
+  <!-- nav -->
+  <div class="nav">
+    <span class="nav-item">Explore World</span>
+    <span class="nav-item">Studio&nbsp;&middot;&nbsp;Lab</span>
+  </div>
+
+  <!-- liste des projets, centree -->
+  <ul class="projects-list" id="projectsList"></ul>
+
+  <!-- apercu du projet survole, en bas a droite -->
+  <div class="project-preview" id="projectPreview">
+    <div class="project-preview-media">
+      <img id="previewImg" src="" alt="" />
+    </div>
+    <p class="project-preview-caption" id="previewCaption"></p>
+  </div>
+
+  <script src="sketch.js"></script>
+  <script src="projects.js"></script>
+
+</body>
+</html>
